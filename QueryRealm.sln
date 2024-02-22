@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorWhoQuerySystem", "DoctorWhoQuerySystem\DoctorWhoQuerySystem.csproj", "{03B7DB51-21B0-4D67-8F48-030EE61165F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryRealm", "DoctorWhoQuerySystem\QueryRealm.csproj", "{03B7DB51-21B0-4D67-8F48-030EE61165F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

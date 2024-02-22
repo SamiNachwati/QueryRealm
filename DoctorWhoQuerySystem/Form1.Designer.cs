@@ -51,11 +51,12 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.ForestGreen;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1285, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1390, 35);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -64,7 +65,7 @@
             this.exitToolStripMenuItem.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitToolStripMenuItem.ForeColor = System.Drawing.Color.Honeydew;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(63, 31);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click_1);
             // 
@@ -89,7 +90,7 @@
             // 
             this.SelectedDoctor.Location = new System.Drawing.Point(36, 603);
             this.SelectedDoctor.Name = "SelectedDoctor";
-            this.SelectedDoctor.Size = new System.Drawing.Size(176, 27);
+            this.SelectedDoctor.Size = new System.Drawing.Size(176, 32);
             this.SelectedDoctor.TabIndex = 5;
             // 
             // label3
@@ -97,17 +98,17 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(32, 541);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 22);
+            this.label3.Size = new System.Drawing.Size(173, 27);
             this.label3.TabIndex = 4;
             this.label3.Text = "Doctor Selected";
             // 
             // titleBox
             // 
             this.titleBox.FormattingEnabled = true;
-            this.titleBox.ItemHeight = 22;
+            this.titleBox.ItemHeight = 27;
             this.titleBox.Location = new System.Drawing.Point(36, 283);
             this.titleBox.Name = "titleBox";
-            this.titleBox.Size = new System.Drawing.Size(369, 158);
+            this.titleBox.Size = new System.Drawing.Size(369, 139);
             this.titleBox.TabIndex = 3;
             // 
             // label2
@@ -115,7 +116,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(32, 235);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 22);
+            this.label2.Size = new System.Drawing.Size(110, 27);
             this.label2.TabIndex = 2;
             this.label2.Text = "Story Title";
             // 
@@ -124,7 +125,7 @@
             this.doctorBox.FormattingEnabled = true;
             this.doctorBox.Location = new System.Drawing.Point(36, 96);
             this.doctorBox.Name = "doctorBox";
-            this.doctorBox.Size = new System.Drawing.Size(257, 30);
+            this.doctorBox.Size = new System.Drawing.Size(257, 35);
             this.doctorBox.TabIndex = 1;
             this.doctorBox.SelectedIndexChanged += new System.EventHandler(this.doctorBox_SelectedIndexChanged_1);
             // 
@@ -133,7 +134,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(32, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 22);
+            this.label1.Size = new System.Drawing.Size(92, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "Doctors";
             // 
@@ -147,7 +148,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.ForestGreen;
             this.groupBox2.Location = new System.Drawing.Point(557, 52);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(716, 702);
+            this.groupBox2.Size = new System.Drawing.Size(790, 702);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Companion Selection";
@@ -157,7 +158,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(325, 302);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 22);
+            this.label5.Size = new System.Drawing.Size(82, 27);
             this.label5.TabIndex = 3;
             this.label5.Text = "Doctor";
             // 
@@ -173,10 +174,10 @@
             // 
             this.travelledWith.AllowDrop = true;
             this.travelledWith.FormattingEnabled = true;
-            this.travelledWith.ItemHeight = 22;
+            this.travelledWith.ItemHeight = 27;
             this.travelledWith.Location = new System.Drawing.Point(6, 96);
             this.travelledWith.Name = "travelledWith";
-            this.travelledWith.Size = new System.Drawing.Size(704, 136);
+            this.travelledWith.Size = new System.Drawing.Size(778, 112);
             this.travelledWith.TabIndex = 1;
             // 
             // label4
@@ -184,7 +185,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 51);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(399, 22);
+            this.label4.Size = new System.Drawing.Size(497, 27);
             this.label4.TabIndex = 0;
             this.label4.Text = "Companions that travelled with Selected Doctor";
             // 
@@ -193,13 +194,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Honeydew;
-            this.ClientSize = new System.Drawing.Size(1285, 796);
+            this.ClientSize = new System.Drawing.Size(1390, 796);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "DoctorWhoQuerySystem";
-            this.Text = "DoctorWhoQuerySystem";
+            this.Text = "QueryRealm";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
